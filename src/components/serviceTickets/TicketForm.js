@@ -30,7 +30,7 @@ export const TicketForm = () => {
 
         return fetch("http://localhost:8088/serviceTickets", fetchOption)
             .then(() => {
-                history.push("/employees")
+                history.push("/tickets")
             })
     }
 
